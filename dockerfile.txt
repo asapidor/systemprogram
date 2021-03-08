@@ -1,0 +1,4 @@
+FROM ubuntu
+COPY first.sh .
+RUN chmod ugo+x first.sh
+CMD ./first.sh
